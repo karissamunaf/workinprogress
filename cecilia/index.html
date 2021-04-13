@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ep 03. What do Wikipedia edit wars say about the production of knowledge? | Work in Progress</title>
+    <link rel="shortcut icon" href="assets/img/loader.gif">
+    <meta charset="utf-8">
+    <meta name="description" content="" />
+    <meta property="og:image" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/css/styles.css" media="all" rel="stylesheet"/>
+    <script src="processing-1.0.0.min.js"></script>
+</head>
+
+<body>
+    <div class="back">
+        <a href="../index.html">Back</a>
+    </div>
+
+    <div class="top-row">
+        <div class="number">
+            <h2>03.</h2>
+        </div>
+        <div class="guest">
+            <h1>with Cecilia Zhang</h1>
+        </div>
+        <div class="date">
+            <h3>02/25/2021</h1>
+        </div>
+    </div>
+
+
+    <div class="mid-row">
+        <div class="title">
+            <h1>Why are people so lonely in cities?</h1>
+        </div>
+        <div class="audio-nav">
+            <div id="playtoggle" class="playtoggle is-visible" onclick="mStart()">
+                <svg><polygon points="0,67.4 52,33.7 0,0 "></polygon></svg>
+            </div>
+            <div id="pausetoggle" class="pausetoggle" onclick="mPause()">
+                <svg>
+                    <g>
+                        <rect width="10" height="67.4"></rect>
+                        <rect width="10" height="67.4" x="20"></rect>
+                    </g>
+               </svg>
+            </div> 
+            <div>
+                <audio id="aud" controls preload="metadata" onloadedmetadata="mDur()" ontimeupdate="mPlay()" style="display:none;">
+                    <source src="../assets/audio/cecilia.mp3" type="audio/mp3">
+                </audio>
+            </div>
+            <div class="time-tracker">
+                <span id="timestamp" type="time" min="00:00" max="2:55">00:00:00</span> 
+            </div>
+            <div class="seekbar-container">
+                <input id="dur" class="seekbar" type="range" min="0" max="100" value="0" step="0.1" onchange="mSet()">
+            </div>
+        </div>
+    </div>
+    <script>
+        var aud= document.getElementById('aud');
+        var dur= document.getElementById('dur');
+        var playtoggle= document.getElementById('playtoggle');
+        var pausetoggle= document.getElementById('pausetoggle');
+        var timestamp= document.getElementById('timestamp');
+        function mStart(){
+            aud.play();
+            playtoggle.classList.remove('is-visible');
+            pausetoggle.classList.add('is-visible');
+        }
+        function mPause(){
+            aud.pause();
+            playtoggle.classList.add('is-visible');
+            pausetoggle.classList.remove('is-visible');
+        }
+        function mDur(){dur.max= aud.duration}
+        function mPlay(){
+            dur.value = aud.currentTime;
+            console.log(aud.currentTime);
+            var seconds=aud.currentTime;
+            seconds=Math.floor(seconds);
+            var minutes=seconds/60;
+            minutes=Math.floor(minutes);
+            var hours=minutes/60;
+            hours=Math.floor(hours);
+            seconds=seconds%60;
+            minutes=minutes%60;
+            if (seconds < 10) {
+                seconds="0"+seconds;
+            }
+            if (minutes < 10) {
+                minutes="0"+minutes;
+            }
+            if (hours < 10) {
+                hours="0"+hours;
+            }
+            var timestampText=hours+":"+minutes+":"+seconds;
+            timestamp.innerHTML = timestampText;
+            //var currenttime=document.documentElement.innerHTML 
+            //numbers inside currenttime should change to value of the currenttime of the audio.
+        }
+        function mSet(){aud.currentTime=dur.value}
+    </script>
+
+    <div class="bottom-row">
+        <div class="description">
+            <h1>Cecilia Zhang is a Communication Design student<br>at Parsons
+                School of Design. She and I would often have these weekly
+                thesis talks to talk about our own work. Recording our
+                conversation for this episode felt a lot like our usual
+                talk. In this episode, we talked about how Cecilia is
+                looking into Wikipedia edit wars. Although they show
+                this hostile side of Wikipedia, edit wars speak to the
+                passion that editors have when they write. Her thesis is
+                a critique on Wikipedia. I think we are often told that
+                Wikipedia is an unreliable source because anyone can write
+                it. But later I learned that there are a lot of factors
+                that play into writing and publishing a Wikipedia page,
+                and writing a good page is really not as easy as<br>you think.
+        </div>
+        <div class="sources">
+           <a href="https://www.ceciliazhang.work/" target="_blank">Cecilia Zhang's Work</a><br>
+           <a href="https://www.instagram.com/ceciliazzzhang/" target="_blank">@ceciliazzzhang</a><br>
+           <a href="https://www.ceciliazhang.work/wikipedia" target="_blank">WE:kipedia work</a><br>
+           <a href="https://www.instagram.com/ceciliazzzhang/" target="_blank">Tiger edit war</a><br>
+           <a href="https://www.instagram.com/ceciliazzzhang/" target="_blank">Humus edit war</a><br>
+        </div>
+    </div>  
+
+    <div class="visuals-row">
+        <div class="visual-description-left">
+            Transcript with visuals:<br><br>
+            [11:25-11:46]<br><br>
+            <u>Cecilia Zhang:</u> Sometimes people will like on Christmas eve at 9pm they will be doing these<br>
+            edit wars without like, "No tigers are the most powerful cats in the world. Don't you dare say
+            otherwise," you know? [...] On the other hand,<br>it also speaks to their dedication towards truth.
+            <div>
+                <img src="assets/img/tiger.jpg" class="images">
+            </div>
+            <br><br>
+            [13:48-14:50]<br><br>
+            <u>Cecilia Zhang:</u> But if I did on something like hummus, people are going to like, "Well why do people
+            argue about hummus? That's kind of stu-<br>pid." I love the hummus page. The reason why<br>it's controversial
+            is because of the Israeli-Palestinian conflict.
+            <div>
+                <img src="assets/img/hummus.jpg" class="images">
+            </div>
+        </div>
+
+        <div class="visual-description-right">
+            <br><br>[29:27-29:46]<br><br>
+            <u>Cecilia Zhang:</u> Instead of doing a book that's expensive, that only a few people will read. I like
+            this idea of like a subway pamphlet that you would just give to everyone in the same way that knowledge
+            is free. I wanted my thesis to also be low-production.
+            <div class="image">
+                <div class="cecilia-spread1"></div>
+            </div>
+            <div class="image">
+                <div class="cecilia-spread2"></div>
+            </div>
+         </div>
+    </div>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

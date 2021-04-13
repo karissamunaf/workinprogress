@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ep 07. How does art open conversations about morality and laws?| Work in Progress</title>
+    <link rel="shortcut icon" href="assets/img/loader.gif">
+    <meta charset="utf-8">
+    <meta name="description" content="" />
+    <meta property="og:image" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/css/styles.css" media="all" rel="stylesheet"/>
+    <script src="processing-1.0.0.min.js"></script>
+</head>
+
+<body>
+    <div class="back">
+        <a href="../index.html">Back</a>
+    </div>
+
+    <div class="top-row">
+        <div class="number">
+            <h2>07.</h2>
+        </div>
+        <div class="guest">
+            <h1>with Eva Serrano Reisner</h1>
+        </div>
+        <div class="date">
+            <h3>03/22/2021</h1>
+        </div>
+    </div>
+
+    <div class="mid-row">
+        <div class="title">
+            <h1>How does art open conversations about morality<br>and laws?</h1>
+        </div>
+        <div class="audio-nav">
+            <div id="playtoggle" class="playtoggle is-visible" onclick="mStart()">
+                <svg><polygon points="0,67.4 52,33.7 0,0 "></polygon></svg>
+            </div>
+            <div id="pausetoggle" class="pausetoggle" onclick="mPause()">
+                <svg>
+                    <g>
+                        <rect width="10" height="67.4"></rect>
+                        <rect width="10" height="67.4" x="20"></rect>
+                    </g>
+               </svg>
+            </div> 
+            <div>
+                <audio id="aud" controls preload="metadata" onloadedmetadata="mDur()" ontimeupdate="mPlay()" style="display:none;">
+                    <source src="../assets/audio/eva.mp3" type="audio/mp3">
+                </audio>
+            </div>
+            <div class="time-tracker">
+                <span id="timestamp" type="time" min="00:00" max="2:55">00:00:00</span> 
+            </div>
+            <div class="seekbar-container">
+                <input id="dur" class="seekbar" type="range" min="0" max="100" value="0" step="0.1" onchange="mSet()">
+            </div>
+        </div>
+    </div>
+    <script>
+        var aud= document.getElementById('aud');
+        var dur= document.getElementById('dur');
+        var playtoggle= document.getElementById('playtoggle');
+        var pausetoggle= document.getElementById('pausetoggle');
+        var timestamp= document.getElementById('timestamp');
+        function mStart(){
+            aud.play();
+            playtoggle.classList.remove('is-visible');
+            pausetoggle.classList.add('is-visible');
+        }
+        function mPause(){
+            aud.pause();
+            playtoggle.classList.add('is-visible');
+            pausetoggle.classList.remove('is-visible');
+        }
+        function mDur(){dur.max= aud.duration}
+        function mPlay(){
+            dur.value = aud.currentTime;
+            console.log(aud.currentTime);
+            var seconds=aud.currentTime;
+            seconds=Math.floor(seconds);
+            var minutes=seconds/60;
+            minutes=Math.floor(minutes);
+            var hours=minutes/60;
+            hours=Math.floor(hours);
+            seconds=seconds%60;
+            minutes=minutes%60;
+            if (seconds < 10) {
+                seconds="0"+seconds;
+            }
+            if (minutes < 10) {
+                minutes="0"+minutes;
+            }
+            if (hours < 10) {
+                hours="0"+hours;
+            }
+            var timestampText=hours+":"+minutes+":"+seconds;
+            timestamp.innerHTML = timestampText;
+            //var currenttime=document.documentElement.innerHTML 
+            //numbers inside currenttime should change to value of the currenttime of the audio.
+        }
+        function mSet(){aud.currentTime=dur.value}
+    </script>
+
+    <div class="bottom-row">
+        <div class="description">
+            <h1>Eva Serrano Reisner is a senior studying Communication Design at Parsons School
+                of Design. Eva began her thesis journey by asking the que-<br>stion, "Are laws moral?"
+                but the question felt<br>too open, so she expanded upon this question and ended up
+                with, "How does current American demo-<br>cracy prevent a true way of living under
+                one's<br>own morals?" She approached the question in two different ways. Her first
+                experiment was to redes-<br>ign the voting ballot, and for the final form, Eva
+                is rewriting the laws that only contain the word "God" in the US code. The aim
+                to show the rela-<br>tionship between Christianity and American laws. Eva hopes 
+                that she could present these ideas without forcing an overly critical voice.
+                The<br>goal is to make people aware so that they can<br>have their own thoughts
+                on the matter, and<br>allow others to take action.</h1>
+        </div>
+        <div class="sources">
+           <a href="https://www.vivekmurthy.com/together-book" target="_blank">Eva's Website</a><br>
+        </div>
+    </div>
+
+    <div class="visuals-row">
+        <div class="visual-description-left">
+            <div>
+                Transcript with visuals:<br><br>
+                [7:48-8:35]<br><br>
+                <u>Eva Serrano Reisner:</u> Why this form? I feel like,<br>I am not successful in my work until I
+                tire myself out endlessly. Because by doing that, and exerting all that energy to writing a 200 page book.
+                It's insane. But it also becomes almost like a per-<br>formance piece at that point.
+             </div>
+             <div class="image">
+                <div class="eva-spread"></div>
+            </div>
+            <div>
+                <br><br>[7:48-8:35]<br><br>
+                <u>Eva Serrano Reisner:</u> So basically, I don’t know<br>if you've ever seen like
+                the Gutenberg Bible,<br>but it's kind of got some similarities in terms<br>of what the type look like.
+             </div>
+             <div class="image">
+                <div class="eva-gutenberg"></div>
+            </div>
+        </div>
+
+        <div class="visual-description-right">
+            <div>
+                <br><br>[7:58-8:20]<br><br>
+                <u>Eva Serrano Reisner</u> I'm recording it on my phone just because of the amount of recordings
+                that I'm going to have to be taking. It's also not about how pretty the recording looks.
+                It's about the fact that "Oh, you wrote for four hours. Can<br>you have that recorded down? Yeah.
+            </div>
+            <div class="image">
+                <video width="480" height="442" controls autoplay muted>
+                    <source src="assets/img/eva-video.mp4" type="video/mp4">
+                </video>
+            </div>
+         </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

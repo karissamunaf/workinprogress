@@ -1,0 +1,286 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+  background-image: url(../img/grid.jpg);
+  font-family: Mondwest;
+  background-attachment: fixed;
+  background-size: 100%;
+  margin: 30px;
+}
+
+.description {
+  font-size: 35pt;
+  color:#0531E8;
+  line-height: 135%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.feature {
+  max-width: 1275px;
+  margin: 0 auto;
+  border: 10px solid #0531E8;
+  text-align: center;
+  font-size: 35pt;
+}
+
+.feature-header {
+  background-color: #0531E8;
+  color: white;
+  padding: 20px;
+}
+
+.feature:hover {
+  background-color: white;
+  color: blue;
+}
+
+.feature-details {
+  padding: 35px;
+  background-color: white;
+  color: #0531E8;
+}
+
+.feature-details:hover {
+  background-color: #0531E8;
+}
+
+.feature-details h3 {
+  font-family: neuebit;
+  font-weight: bold;
+  font-size: 28pt;
+  padding-top: 10px;
+}
+
+a:visited {color: #0531E8;}
+a:link {text-decoration: none;}
+a:hover {color: white;}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.book {
+  width: 302px;
+  height: 395px;
+  background-image: url(../img/bookw.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-top: 75px;
+  padding-right: 45px;
+  padding-left: 20px;
+}
+
+.book:hover{
+  background-image: url(../img/bookb.png);
+}
+
+.intro {
+  font-size: 35pt;
+  /*font-size: 30pt;
+  padding-left: 48px;*/
+  text-align: center;
+  padding-left: 32px;
+  display: inline-block;
+}
+
+.alisa-title{
+  font-size: 35pt;
+  /*font-size: 30pt;
+  padding-left: 27px;*/
+  text-align: center;
+  padding-left: 7px;
+  display: inline-block;
+}
+
+.alisa {
+  font-family: neuebit;
+  font-weight: bold;
+  font-size: 24pt;
+  text-align: center;
+  padding-top: 140px;
+  /*padding-top: 165px;*/
+  padding-left: 36px;
+  display: inline-block;
+}
+
+.dirm-title{
+  /*font-size: 30pt;*/
+  font-size: 35pt;
+  text-align: center;
+  display: inline-block;
+}
+
+.dirm {
+  font-family: neuebit;
+  font-weight: bold;
+  font-size: 24pt;
+  text-align: center;
+  padding-top: 95px;
+  /*padding-top: 127px;*/
+  padding-left: 65px;
+  display: inline-block;
+}
+
+.cecilia-title{
+  font-size: 35pt;
+  text-align: center;
+  padding-left: 8px;
+  display: inline-block;
+}
+
+.cecilia {
+  font-family: neuebit;
+  font-weight: bold;
+  font-size: 24pt;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.stella-title{
+  font-size: 35pt;
+  text-align: center;
+  padding-left: 5px;
+}
+
+.stella {
+  font-family: neuebit;
+  font-weight: bold;
+  font-size: 24pt;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.tata-title{
+  font-size: 35pt;
+  text-align: center;
+}
+
+.tata {
+  font-family: neuebit;
+  font-weight: bold;
+  font-size: 24pt;
+  text-align: center;
+  padding-top: 97px;
+}
+
+.danni-title{
+  font-size: 35pt;
+  text-align: center;
+}
+
+.danni {
+  font-family: neuebit;
+  font-weight: bold;
+  font-size: 24pt;
+  text-align: center;
+  padding-top: 97px;
+}
+
+.eva-title{
+  font-size: 35pt;
+  text-align: center;
+  padding-left: 5px;
+}
+
+.eva {
+  font-family: neuebit;
+  font-weight: bold;
+  font-size: 24pt;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.will-title {
+  font-size: 35pt;
+  text-align: center;
+  padding-left: 0px;
+}
+
+.will {
+  font-family: neuebit;
+  font-weight: bold;
+  font-size: 24pt;
+  text-align: center;
+  padding-top: 50px;
+}
+/*
+.book2 {
+  width: 302px;
+  height: 395px;
+  background-image: url(../img/alisaw.png);
+  background-size: no-repeat;
+  background-size: contain;
+  margin-right: 100px;
+  margin-left: 100px
+}
+
+.book2:hover{
+  background-image: url(../img/alisab.png);
+}
+
+.book3 {
+  width: 302px;
+  height: 395px;
+  background-image: url(../img/dirmw.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.book3:hover{
+  background-image: url(../img/dirmb.png);
+}
+*/
