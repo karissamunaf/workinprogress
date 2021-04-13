@@ -274,13 +274,13 @@ a:link {text-decoration: none;}
 .nyu2 {
   width: 480px;
   height: 360px;
-  background-image: url(../img/nyu1-blue.jpg);
+  background-image: url(../img/nyu2-blue.jpg);
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .nyu2:hover{
-  background-image: url(../img/nyu1.JPG);
+  background-image: url(../img/nyu2.JPG);
 }
 
 .nyu3 {
