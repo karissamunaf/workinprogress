@@ -70,12 +70,11 @@ body{
   margin: 30px;
 }
 
-
 a:visited {color: #0531E8;}
+a:active {color: #0531E8;} 
 /*
 a:link {text-decoration: none;}
 */
-
 
 .back {
   font-size: 30pt;

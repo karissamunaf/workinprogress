@@ -72,6 +72,7 @@ body{
 
 
 a:visited {color: #0531E8;}
+a:active {color: #0531E8;} 
 /*
 a:link {text-decoration: none;}
 */
