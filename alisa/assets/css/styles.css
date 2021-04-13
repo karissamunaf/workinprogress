@@ -271,22 +271,10 @@ a:link {text-decoration: none;}
   padding-top: 30px;
 }
 
-.nyu1 {
-  width: 480px;
-  height: 360px;
-  background-image: url(../img/nyu1-blue.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.nyu1:hover{
-  background-image: url(../img/nyu1.jpg);
-}
-
 .nyu2 {
   width: 480px;
   height: 360px;
-  background-image: url(../img/nyu2-blue.jpg);
+  background-image: url(../img/nyu1-blue.jpg);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -305,4 +293,16 @@ a:link {text-decoration: none;}
 
 .nyu3:hover{
   background-image: url(../img/nyu3.JPG);
+}
+
+.nyu1 {
+  width: 480px;
+  height: 360px;
+  background-image: url(../img/nyu1-blue.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.nyu1:hover{
+  background-image: url(../img/nyu1.JPG);
 }
