@@ -262,9 +262,44 @@ a:link {text-decoration: none;}
   background-color:white;
 }
 
-.images{
-  width: 480px;
+.image{
   padding-top: 30px;
+}
+
+.dirm-tattoo {
+  width: 480px;
+  height: 324.7464px;
+  background-image: url(../img/tattoo.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
   border: 10px solid #0531E8;
 }
+
+.dirm-painting {
+  width: 480px;
+  height: 345.9375px;
+  background-image: url(../img/painting.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 10px solid #0531E8;
+}
+
+.dirm-spread2 {
+  width: 480px;
+  height: 339.738px;
+  background-image: url(../img/spread2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 10px solid #0531E8;
+}
+
+.dirm-spread3 {
+  width: 480px;
+  height: 338.6756px;
+  background-image: url(../img/spread3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 10px solid #0531E8;
+}
+
 
