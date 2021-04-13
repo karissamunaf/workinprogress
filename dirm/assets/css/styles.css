@@ -47,6 +47,11 @@ table {
 	border-spacing: 0;
 }
 
+@font-face {
+  font-family: apercu-mono;
+  src: url(../../../assets/fonts/apercu-mono.otf);
+}
+
 body{
   background-image: url(../img/grid.jpg);
   font-family: Mondwest;
@@ -55,12 +60,10 @@ body{
   margin: 30px;
 }
 
-
 a:visited {color: #0531E8;}
 /*
 a:link {text-decoration: none;}
 */
-
 
 .back {
   font-size: 30pt;
@@ -194,7 +197,7 @@ a:link {text-decoration: none;}
 }
 
 .description {
-  font-family: apercu mono;
+  font-family: apercu-mono;
   font-size: 12pt;
   line-height: 140%;
   float: left;
@@ -205,7 +208,7 @@ a:link {text-decoration: none;}
 }
 
 .sources {
-  font-family: apercu mono;
+  font-family: apercu-mono;
   font-size: 12pt;
   line-height: 140%;
   float: left;
@@ -227,7 +230,7 @@ a:link {text-decoration: none;}
 }
 
 .visual-description-left {
-  font-family: apercu mono;
+  font-family: apercu-mono;
   font-size: 12pt;
   line-height: 140%;
   float: left;
@@ -238,7 +241,7 @@ a:link {text-decoration: none;}
 }
 
 .visual-description-right {
-  font-family: apercu mono;
+  font-family: apercu-mono;
   font-size: 12pt;
   line-height: 140%;
   float: left;

@@ -47,6 +47,11 @@ table {
 	border-spacing: 0;
 }
 
+@font-face {
+  font-family: apercu-mono;
+  src: url(../fonts/apercu-mono.otf);
+}
+
 body{
   background-image: url(../img/grid.jpg);
   font-family: Mondwest;
