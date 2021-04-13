@@ -86,7 +86,7 @@ body{
   margin: 0 auto;
   border: 10px solid #0531E8;
   text-align: center;
-  font-size: 35pt;
+  font-size: 3.1vw;
 }
 
 .feature-header {
@@ -111,7 +111,7 @@ body{
 }
 
 .feature-details h3 {
-  font-family: neuebit-bold;
+  font-family: neuebit-bold;;
   font-weight: bold;
   font-size: 28pt;
   padding-top: 10px;
@@ -154,20 +154,19 @@ a:hover {color: white;}
 }
 
 .alisa-title{
-  font-size: 35pt;
+  font-size:35pt;
   /*font-size: 30pt;
   padding-left: 27px;*/
   text-align: center;
-  padding-left: 7px;
   display: inline-block;
 }
 
 .alisa {
-  font-family: neuebit-bold;
+  font-family: neuebit-bold;;
   font-weight: bold;
   font-size: 24pt;
   text-align: center;
-  padding-top: 140px;
+  padding-top: 120px;
   /*padding-top: 165px;*/
   padding-left: 36px;
   display: inline-block;
@@ -181,7 +180,7 @@ a:hover {color: white;}
 }
 
 .dirm {
-  font-family: neuebit-bold;
+  font-family: neuebit-bold;;
   font-weight: bold;
   font-size: 24pt;
   text-align: center;
@@ -192,14 +191,14 @@ a:hover {color: white;}
 }
 
 .cecilia-title{
-  font-size: 35pt;
+  font-size: 3.1vw;
   text-align: center;
   padding-left: 8px;
   display: inline-block;
 }
 
 .cecilia {
-  font-family: neuebit-bold;
+  font-family: neuebit-bold;;
   font-weight: bold;
   font-size: 24pt;
   text-align: center;
@@ -213,7 +212,7 @@ a:hover {color: white;}
 }
 
 .stella {
-  font-family: neuebit-bold;
+  font-family: neuebit-bold;;
   font-weight: bold;
   font-size: 24pt;
   text-align: center;
@@ -226,7 +225,7 @@ a:hover {color: white;}
 }
 
 .tata {
-  font-family: neuebit-bold;
+  font-family: neuebit-bold;;
   font-weight: bold;
   font-size: 24pt;
   text-align: center;
@@ -239,7 +238,7 @@ a:hover {color: white;}
 }
 
 .danni {
-  font-family: neuebit-bold;
+  font-family: neuebit-bold;;
   font-weight: bold;
   font-size: 24pt;
   text-align: center;
@@ -253,7 +252,7 @@ a:hover {color: white;}
 }
 
 .eva {
-  font-family: neuebit-bold;
+  font-family: neuebit-bold;;
   font-weight: bold;
   font-size: 24pt;
   text-align: center;
@@ -261,13 +260,13 @@ a:hover {color: white;}
 }
 
 .will-title {
-  font-size: 35pt;
+  font-size: 3.1vw;
   text-align: center;
   padding-left: 0px;
 }
 
 .will {
-  font-family: neuebit-bold;
+  font-family: neuebit-bold;;
   font-weight: bold;
   font-size: 24pt;
   text-align: center;
