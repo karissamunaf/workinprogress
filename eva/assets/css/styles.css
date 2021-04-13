@@ -47,9 +47,25 @@ table {
 	border-spacing: 0;
 }
 
+@font-face {
+  font-family: apercu-mono;
+  src: url(../fonts/apercu-mono.otf);
+}
+
+@font-face {
+  font-family: mondwest-regular;
+  src: url(../fonts/mondwest-regular.otf);
+}
+
+@font-face {
+  font-family: neuebit-bold;
+  src: url(../fonts/neuebit-bold.otf);
+  font-weight: bold;
+}
+
 body{
   background-image: url(../img/grid.jpg);
-  font-family: Mondwest;
+  font-family: mondwest-regular;
   background-attachment: fixed;
   background-size: 100%;
   margin: 30px;
@@ -196,7 +212,7 @@ a:link {text-decoration: none;}
 }
 
 .description {
-  font-family: apercu mono;
+  font-family: apercu-mono;
   font-size: 12pt;
   line-height: 140%;
   float: left;
@@ -207,7 +223,7 @@ a:link {text-decoration: none;}
 }
 
 .sources {
-  font-family: apercu mono;
+  font-family: apercu-mono;
   font-size: 12pt;
   line-height: 140%;
   float: left;
@@ -229,7 +245,7 @@ a:link {text-decoration: none;}
 }
 
 .visual-description-left {
-  font-family: apercu mono;
+  font-family: apercu-mono;
   font-size: 12pt;
   line-height: 140%;
   float: left;
@@ -240,7 +256,7 @@ a:link {text-decoration: none;}
 }
 
 .visual-description-right {
-  font-family: apercu mono;
+  font-family: apercu-mono;
   font-size: 12pt;
   line-height: 140%;
   float: left;

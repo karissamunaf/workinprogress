@@ -47,9 +47,25 @@ table {
 	border-spacing: 0;
 }
 
+@font-face {
+  font-family: apercu-mono;
+  src: url(../fonts/apercu-mono.otf);
+}
+
+@font-face {
+  font-family: mondwest-regular;
+  src: url(../fonts/mondwest-regular.otf);
+}
+
+@font-face {
+  font-family: neuebit-bold;
+  src: url(../fonts/neuebit-bold.otf);
+  font-weight: bold;
+}
+
 body{
   background-image: url(../img/grid.jpg);
-  font-family: Mondwest;
+  font-family: mondwest-regular;
   background-attachment: fixed;
   background-size: 100%;
   margin: 30px;
@@ -82,22 +98,24 @@ a:link {text-decoration: none;}
 }
 
 .number {
-  border-right: 10px solid hotpink;
+  border-right: 10px solid #0531E8;
   padding: 10px;
-  background-color: mistyrose;
+  background-color: white;
 }
 
 .guest {
-  border-right: 10px solid hotpink;
+  border-right: 10px solid #0531E8;
   width: 100%;
-  padding: 10px;
-  background-color: palegoldenrod;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  background-color: white;
 }
 
 .date {
   padding: 10px;
-  width: 16%;
-  background-color: powderblue;
+  background-color: white;
 }
 
 .mid-row {
@@ -117,11 +135,11 @@ a:link {text-decoration: none;}
   width: 45%;
   padding: 90px;
   padding-right: 50px;
-  background-color: lightsteelblue;
+  background-color: white;
 }
 
 .audio-nav{
-  background-color: lightgrey;
+  background-color: white;
   float: left;
   width: 50%;
   padding: 90px;
@@ -133,7 +151,7 @@ a:link {text-decoration: none;}
 
 .playtoggle{
   fill: #0531E8;
-  background-color: aliceblue;
+  background-color: white;
   cursor: pointer;
   display: none;
   width: 52px;
@@ -144,7 +162,7 @@ a:link {text-decoration: none;}
   fill: #0531E8;
   cursor: pointer;
   display: none;
-  background-color:aliceblue;
+  background-color:white;
   width: 30px;
   height: 67.4px;
 }
@@ -160,7 +178,7 @@ a:link {text-decoration: none;}
 
 .seekbar-container {
   width: 500px;
-  background-color: turquoise;
+  background-color: white;
 }
 
 .seekbar {
@@ -194,25 +212,25 @@ a:link {text-decoration: none;}
 }
 
 .description {
-  font-family: apercu mono;
+  font-family: apercu-mono;
   font-size: 12pt;
   line-height: 140%;
   float: left;
   width: 50%;
   padding: 90px;
   padding-right: 45px;
-  background-color: mediumaquamarine;
+  background-color: white;
 }
 
 .sources {
-  font-family: apercu mono;
+  font-family: apercu-mono;
   font-size: 12pt;
   line-height: 140%;
   float: left;
   width: 50%;
   padding: 90px;
   padding-left: 45px;
-  background-color: pink;
+  background-color: white;
 }
 
 .visuals-row {
@@ -227,18 +245,18 @@ a:link {text-decoration: none;}
 }
 
 .visual-description-left {
-  font-family: apercu mono;
+  font-family: apercu-mono;
   font-size: 12pt;
   line-height: 140%;
   float: left;
   width: 50%;
   padding: 90px;
   padding-right: 45px;
-  background-color:powderblue;
+  background-color:white;
 }
 
 .visual-description-right {
-  font-family: apercu mono;
+  font-family: apercu-mono;
   font-size: 12pt;
   line-height: 140%;
   float: left;
@@ -246,7 +264,7 @@ a:link {text-decoration: none;}
   padding-top: 90px;
   padding-right: 90px;
   padding-left: 45px;
-  background-color:cornsilk;
+  background-color:white;
 }
 
 .images{
