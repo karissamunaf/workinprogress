@@ -304,3 +304,27 @@ a:link {text-decoration: none;}
 .tata-ar:hover{
   background-image: url(../img/tata-book1.jpg);
 }
+
+.tata-workbook1 {
+  width: 480px;
+  height: 360px;
+  background-image: url(../img/tata-workbook1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.tata-workbook1:hover{
+  background-image: url(../img/tata-book1.jpg);
+}
+
+.tata-workbook2 {
+  width: 480px;
+  height: 360px;
+  background-image: url(../img/tata-workbook2.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.tata-workbook2:hover{
+  background-image: url(../img/tata-book1.jpg);
+}
