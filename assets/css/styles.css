@@ -52,9 +52,15 @@ table {
   src: url(../fonts/apercu-mono.otf);
 }
 
+@font-face {
+  font-family: mondwest-regular;
+  src: url(../fonts/mondwest-regular.otf);
+}
+
+
 body{
   background-image: url(../img/grid.jpg);
-  font-family: Mondwest;
+  font-family: mondwest-regular;
   background-attachment: fixed;
   background-size: 100%;
   margin: 30px;
