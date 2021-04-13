@@ -49,18 +49,17 @@ table {
 
 @font-face {
   font-family: apercu-mono;
-  src: url(../fonts/apercu-mono.otf);
+  src: url(../../../assets/fonts/apercu-mono.otf);
 }
 
 @font-face {
   font-family: mondwest-regular;
-  src: url(../fonts/mondwest-regular.otf);
+  src: url(../../../assets/fonts/mondwest-regular.otf);
 }
 
 @font-face {
-  font-family: neuebit-bold;
-  src: url(../fonts/neuebit-bold.otf);
-  font-weight: bold;
+  font-family: neuebit-regular;
+  src: url(../../../assets/fonts/neuebit-bold.otf);
 }
 
 body{

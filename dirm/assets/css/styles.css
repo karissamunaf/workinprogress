@@ -57,6 +57,10 @@ table {
   src: url(../../../assets/fonts/mondwest-regular.otf);
 }
 
+@font-face {
+  font-family: neuebit-regular;
+  src: url(../../../assets/fonts/neuebit-bold.otf);
+}
 
 body{
   background-image: url(../img/grid.jpg);
