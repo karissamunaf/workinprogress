@@ -212,7 +212,7 @@ a:link {text-decoration: none;}
 }
 
 .description {
-  font-family: neuebit-bold;
+  font-family: apercu-mono;
   font-size: 12pt;
   line-height: 140%;
   float: left;
@@ -223,7 +223,7 @@ a:link {text-decoration: none;}
 }
 
 .sources {
-  font-family: neuebit-bold;
+  font-family: apercu-mono;
   font-size: 12pt;
   line-height: 140%;
   float: left;
@@ -245,7 +245,7 @@ a:link {text-decoration: none;}
 }
 
 .visual-description-left {
-  font-family: neuebit-bold;
+  font-family: apercu-mono;
   font-size: 12pt;
   line-height: 140%;
   float: left;
@@ -256,7 +256,7 @@ a:link {text-decoration: none;}
 }
 
 .visual-description-right {
-  font-family: neuebit-bold;
+  font-family: apercu-mono;
   font-size: 12pt;
   line-height: 140%;
   float: left;
