@@ -352,43 +352,63 @@ a:hover {color: white;}
 
 .image {
   padding-top: 30px;
-}
-
-.nyu2 {
   width: 480px;
-  height: 360px;
-  background-image: url(../img/nyu2-blue.jpg);
   background-repeat: no-repeat;
   background-size: contain;
-}
-
-.nyu2:hover{
-  background-image: url(../img/nyu2.JPG);
-}
-
-.nyu3 {
-  width: 480px;
-  height: 640px;
-  background-image: url(../img/nyu3-blue.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.nyu3:hover{
-  background-image: url(../img/nyu3.JPG);
 }
 
 .nyu1 {
-  width: 480px;
   height: 360px;
-  background-image: url(../img/nyu1-blue.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
+  background-image: url(../../alisa/assets/img/nyu1-blue.jpg);
 }
 
 .nyu1:hover{
-  background-image: url(../img/nyu1.JPG);
+  background-image: url(../../alisa/assets/img/nyu1.JPG);
 }
+
+.nyu2 {
+  height: 360px;
+  background-image: url(../../alisa/assets/img/nyu2-blue.jpg);
+}
+
+.nyu2:hover{
+  background-image: url(../../alisa/assets/img/nyu2-color.JPG);
+}
+
+.nyu3 {
+  height: 640px;
+  background-image: url(../../alisa/assets/img/nyu3-blue.jpg);
+}
+
+.nyu3:hover{
+  background-image: url(../../alisa/assets/img/nyu3.JPG);
+}
+
+
+.dirm-tattoo {
+  height: 324.7464px;
+  background-image: url(../img/tattoo.jpeg);
+  border: 10px solid #0531E8;
+}
+
+.dirm-painting {
+  height: 345.9375px;
+  background-image: url(../img/painting.jpg);
+  border: 10px solid #0531E8;
+}
+
+.dirm-spread2 {
+  height: 339.738px;
+  background-image: url(../img/spread2.png);
+  border: 10px solid #0531E8;
+}
+
+.dirm-spread3 {
+  height: 338.6756px;
+  background-image: url(../img/spread3.png);
+  border: 10px solid #0531E8;
+}
+
 
 
 
