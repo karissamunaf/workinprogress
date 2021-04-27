@@ -424,6 +424,33 @@ a:hover {color: white;}
   border: 10px solid #0531E8;
 }
 
+.cecilia-spread1 {
+  height: 480px;
+  background-image: url(../img/spread1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 10px solid #0531E8;
+}
+
+.cecilia-spread1:hover{
+  background-image: url(../img/spread2.jpg);
+}
+
+.cecilia-spread2 {
+  height: 480px;
+  padding-bottom: 60px;
+  background-image: url(../img/spread1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 10px solid #0531E8;
+}
+
+.cecilia-spread2:hover{
+  background-image: url(../img/spread2.jpg);
+}
+
+
+
 
 
 
