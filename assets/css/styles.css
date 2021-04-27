@@ -71,7 +71,7 @@ body{
   margin: 30px;
 }
 
-.description {
+.main-description {
   font-size: 3.1vw;
   color:#0531E8;
   line-height: 135%;
@@ -146,131 +146,159 @@ a:hover {color: white;}
 
 .intro {
   font-size: 35pt;
-  /*font-size: 30pt;
-  padding-left: 48px;*/
   text-align: center;
-  padding-left: 32px;
-  display: inline-block;
 }
 
-.alisa-title{
-  font-size:35pt;
-  /*font-size: 30pt;
-  padding-left: 27px;*/
+.title {
+  font-size: 35pt;
   text-align: center;
-  display: inline-block;
 }
 
-.alisa {
-  font-family: neuebit-bold;;
+.name{
+  font-family: neuebit-bold;
   font-weight: bold;
   font-size: 24pt;
   text-align: center;
-  padding-top: 120px;
-  /*padding-top: 165px;*/
-  padding-left: 36px;
-  display: inline-block;
+  padding-top: 50px;
 }
 
-.dirm-title{
-  /*font-size: 30pt;*/
-  font-size: 35pt;
+.alisa {
+  font-family: neuebit-bold;
+  font-weight: bold;
+  font-size: 24pt;
   text-align: center;
-  display: inline-block;
+  padding-top: 50px;
 }
 
 .dirm {
-  font-family: neuebit-bold;;
+  font-family: neuebit-bold;
   font-weight: bold;
   font-size: 24pt;
   text-align: center;
   padding-top: 95px;
-  /*padding-top: 127px;*/
   padding-left: 65px;
   display: inline-block;
 }
 
-.cecilia-title{
-  font-size: 3.1vw;
-  text-align: center;
-  padding-left: 8px;
-  display: inline-block;
-}
-
 .cecilia {
-  font-family: neuebit-bold;;
+  font-family: neuebit-bold;
   font-weight: bold;
   font-size: 24pt;
   text-align: center;
   padding-top: 50px;
-}
-
-.stella-title{
-  font-size: 35pt;
-  text-align: center;
-  padding-left: 5px;
 }
 
 .stella {
-  font-family: neuebit-bold;;
+  font-family: neuebit-bold;
   font-weight: bold;
   font-size: 24pt;
   text-align: center;
-  padding-top: 50px;
-}
-
-.tata-title{
-  font-size: 35pt;
-  text-align: center;
+  padding-top: 97px;
 }
 
 .tata {
-  font-family: neuebit-bold;;
+  font-family: neuebit-bold;
   font-weight: bold;
   font-size: 24pt;
   text-align: center;
   padding-top: 97px;
-}
-
-.danni-title{
-  font-size: 35pt;
-  text-align: center;
 }
 
 .danni {
-  font-family: neuebit-bold;;
+  font-family: neuebit-bold;
   font-weight: bold;
   font-size: 24pt;
   text-align: center;
   padding-top: 97px;
 }
 
-.eva-title{
-  font-size: 35pt;
-  text-align: center;
-  padding-left: 5px;
-}
-
 .eva {
-  font-family: neuebit-bold;;
+  font-family: neuebit-bold;
   font-weight: bold;
   font-size: 24pt;
   text-align: center;
   padding-top: 50px;
-}
-
-.will-title {
-  font-size: 3.1vw;
-  text-align: center;
-  padding-left: 0px;
 }
 
 .will {
-  font-family: neuebit-bold;;
+  font-family: neuebit-bold;
   font-weight: bold;
   font-size: 24pt;
   text-align: center;
   padding-top: 50px;
+}
+
+@media all and (max-width: 700px) {
+  body{
+    background-image: url(../img/grid.jpg);
+    font-family: mondwest-regular;
+    background-attachment: fixed;
+    background-size: 200%;
+    margin: 20px;
+  }
+  
+  .description {
+    font-size: 25pt;
+    color:#0531E8;
+    line-height: 125%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+  
+  .feature {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 8.5px solid #0531E8;
+    text-align: center;
+    font-size: 25pt;
+  }
+
+  .feature-details h3 {
+    font-family: neuebit;
+    font-weight: bold;
+    font-size: 20pt;
+    padding-top: 20px;
+  }
+
+  .feature-header {
+    background-color: #0531E8;
+    color: white;
+    padding: 10px;
+  }
+
+  .feature-details {
+    padding: 20px;
+    background-color: white;
+    color: #0531E8;
+  }
+
+  .row {
+    display: inline-grid;
+    margin: 0 auto;
+  }
+  
+  .book {
+    width: 320px;
+    height: 370px;
+    background-image: url(../img/bookw.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 50px;
+    padding-right: 0px;
+    padding-left: 0px;
+    border: 2px solid orange;
+  }
+
+  .title{
+    font-size: 30pt;
+    text-align: center;
+    padding-right: 15px;
+  }
+
 }
 
 
