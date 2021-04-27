@@ -121,6 +121,10 @@ a:visited {color: #0531E8;}
 a:link {text-decoration: none;}
 a:hover {color: white;}
 
+.source:visited {color: #0531E8;}
+.source:link {text-decoration: none;}
+.source:hover {text-decoration: underline;}
+
 .row {
   display: flex;
   justify-content: center;
@@ -353,13 +357,13 @@ a:hover {color: white;}
 .image {
   padding-top: 30px;
   width: 480px;
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .nyu1 {
   height: 360px;
   background-image: url(../../alisa/assets/img/nyu1-blue.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .nyu1:hover{
@@ -369,6 +373,8 @@ a:hover {color: white;}
 .nyu2 {
   height: 360px;
   background-image: url(../../alisa/assets/img/nyu2-blue.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .nyu2:hover{
@@ -378,34 +384,43 @@ a:hover {color: white;}
 .nyu3 {
   height: 640px;
   background-image: url(../../alisa/assets/img/nyu3-blue.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .nyu3:hover{
   background-image: url(../../alisa/assets/img/nyu3.JPG);
 }
 
-
 .dirm-tattoo {
   height: 324.7464px;
-  background-image: url(../img/tattoo.jpeg);
+  background-image: url(../../dirm/assets/img/tattoo.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
   border: 10px solid #0531E8;
 }
 
 .dirm-painting {
   height: 345.9375px;
-  background-image: url(../img/painting.jpg);
+  background-image: url(../../dirm/assets/img/painting.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
   border: 10px solid #0531E8;
 }
 
 .dirm-spread2 {
   height: 339.738px;
-  background-image: url(../img/spread2.png);
+  background-image: url(../../dirm/assets/img/spread2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
   border: 10px solid #0531E8;
 }
 
 .dirm-spread3 {
   height: 338.6756px;
-  background-image: url(../img/spread3.png);
+  background-image: url(../../dirm/assets/img/spread3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
   border: 10px solid #0531E8;
 }
 
