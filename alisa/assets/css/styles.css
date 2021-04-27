@@ -132,7 +132,7 @@ a:link {text-decoration: none;}
   justify-content: left;
 }
 
-.title {
+.episode-title {
   font-size: 45pt;
   float: left;
   width: 45%;
@@ -214,7 +214,7 @@ a:link {text-decoration: none;}
   justify-content: left;
 }
 
-.description {
+.student-description {
   font-family: apercu-mono;
   font-size: 12pt;
   line-height: 140%;
